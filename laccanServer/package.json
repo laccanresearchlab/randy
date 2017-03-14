@@ -1,0 +1,41 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "Servidor restful para os sensores (Laccan)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "sensor",
+    "sensornet",
+    "laccan",
+    "ufal",
+    "mobile",
+    "server"
+  ],
+  "author": "randy quindai",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "kerberos": "0.0.18",
+    "mongoose": "^4.2.8",
+    "nodemailer": "^2.4.2",
+    "validator": "^4.3.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@lproject.lccv.ufal.br/site-laccan.git"
+  },
+  "apidoc": {
+    "name": "Node Server API",
+    "version": "1.0.0",
+    "description": "Servidor restful para os sensores (Laccan)",
+    "title": "Documentação da API Node Server",
+    "url": "http://laccan.ufal.br",
+    "sampleUrl": "http://200.133.124.11"
+  }
+}
